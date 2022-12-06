@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <div className="container">
-        <Header/>
+        {/* <Header/>
           <Nav/>
           <About/>
           <Experience/>
@@ -20,8 +20,8 @@ const App = () => {
           <Portfolio/>
           <Testimonilas/>
           <Contact/>
-          <Footer/>
-        {/* <div className="bubbles">
+          <Footer/> */}
+        <div className="bubbles">
             <span style={{'--i':'11'}} ></span>
             <span style={{'--i':'18'}} ></span>
             <span style={{'--i':'12'}} ></span>
@@ -74,7 +74,7 @@ const App = () => {
             <span style={{'--i':'20'}} ></span>
             <span style={{'--i':'23'}} ></span>
           
-        </div> */}
+        </div>
     </div>
   )
 }
